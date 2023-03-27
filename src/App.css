@@ -1,0 +1,94 @@
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(164, 10, 10);
+  transition: width 5s;
+}
+
+.navbar:hover{
+    width: 100px;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  /* padding-bottom: 10px; */
+  padding-top: 10px;
+}
+
+.form_container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px
+}
+
+
+.form{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    background-color: rgb(178, 174, 174);
+    gap: 8px;
+    overflow: hidden;
+}
+
+.input{
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* .boxNew{
+    resize:horizontal;
+    overflow: hidden;
+    
+} */
+
+.inputs{
+    padding: 35px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    /* width:100%; */
+}
+.label{
+    font-size: 20px;
+    margin-left: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600px;
+}
+
+.labels{
+    display: flex;
+}
+
+.btn{
+    padding: 10px;
+    background-color: rgb(164, 10, 10);
+    width: 220px;
+    margin-left: 210px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: rgb(95, 12, 12);
+    cursor: pointer;
+}
